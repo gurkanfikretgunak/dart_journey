@@ -110,3 +110,111 @@ Here are some exercises to practice the basic concepts of Dart. Each problem is 
 25. **State:** A year.
     **Event:** Create a function to check if the year is a leap year.
     **Execution:** Print whether the year is a leap year.
+
+26. **State:** A list of mixed data types (e.g., integers, strings).
+    **Event:** Create a function to filter out all items that are not integers.
+    **Execution:** Print the list containing only integers.
+
+27. **State:** A string that may have leading/trailing whitespace.
+    **Event:** Create a function to trim the whitespace from the string.
+    **Execution:** Print the trimmed string.
+
+28. **State:** Two lists of numbers.
+    **Event:** Create a function to return a new list containing elements that are in both lists (intersection).
+    **Execution:** Print the new list.
+
+29. **State:** A sentence.
+    **Event:** Create a function to reverse the order of words in the sentence.
+    **Execution:** Print the reversed sentence.
+
+30. **State:** A list of numbers and a number `n`.
+    **Event:** Create a function to find all numbers in the list greater than `n`.
+    **Execution:** Print a new list with the filtered numbers.
+
+## Introduction to Classes and Objects
+
+31. **State:** A `Car` with properties like `make`, `model`, and `year`.
+    **Event:** Create a `Car` class and an instance of it.
+    **Execution:** Print the car's details.
+
+32. **State:** A `Person` object with a `name` and `age`.
+    **Event:** Create a method in the `Person` class to introduce themselves.
+    **Execution:** Call the method to print the introduction.
+
+33. **State:** A `Rectangle` class with `width` and `height`.
+    **Event:** Create a method to calculate the area of the rectangle.
+    **Execution:** Create a rectangle object and print its area.
+
+34. **State:** A `BankAccount` class with a `balance`.
+    **Event:** Create methods to `deposit` and `withdraw` money.
+    **Execution:** Create an account, deposit some money, withdraw some, and print the final balance.
+
+35. **State:** A `Book` class with `title`, `author`, and `pages`.
+    **Event:** Create a list of `Book` objects.
+    **Execution:** Print the title and author of each book in the list.
+
+## Error Handling
+
+36. **State:** A function that might throw an error (e.g., dividing by zero).
+    **Event:** Use a `try-catch` block to handle the error.
+    **Execution:** Print a custom error message if an error occurs.
+
+37. **State:** A string that you want to convert to a number.
+    **Event:** Handle the case where the string is not a valid number.
+    **Execution:** Print the number if conversion is successful, or an error message otherwise.
+
+38. **State:** A list of items.
+    **Event:** Try to access an index that is out of bounds.
+    **Execution:** Use `try-catch` to gracefully handle the `RangeError`.
+
+39. **State:** A map of user data.
+    **Event:** Try to access a key that doesn't exist.
+    **Execution:** Provide a default value or a message if the key is not found.
+
+40. **State:** A custom exception class `InvalidEmailException`.
+    **Event:** Create a function that validates an email and throws this exception if it's invalid.
+    **Execution:** Call the function and catch the custom exception.
+
+## Asynchronous Programming Basics
+
+41. **State:** A task that takes time to complete (e.g., fetching data from a fake API).
+    **Event:** Use a `Future` to represent the asynchronous operation.
+    **Execution:** Print a "Loading..." message, then print the data when it arrives.
+
+42. **State:** A function that returns a `Future<String>`.
+    **Event:** Use `async` and `await` to wait for the future to complete.
+    **Execution:** Print the string value from the future.
+
+43. **State:** A sequence of asynchronous operations (e.g., fetch user ID, then fetch user profile).
+    **Event:** Chain `Future`s together.
+    **Execution:** Execute the steps in order and print the final result.
+
+44. **State:** A stream of numbers (e.g., 1, 2, 3, 4, 5).
+    **Event:** Listen to the stream and process each number.
+    **Execution:** Print each number as it is emitted from the stream.
+
+45. **State:** A `Future` that might complete with an error.
+    **Event:** Use `.catchError()` on the `Future`.
+    **Execution:** Handle the error from the asynchronous operation.
+
+## General Practice
+
+46. **State:** A list of employee salaries.
+    **Event:** Calculate the average salary.
+    **Execution:** Print the average salary.
+
+47. **State:** A string containing a mix of uppercase and lowercase letters.
+    **Event:** Create a function to count the number of vowels in the string.
+    **Execution:** Print the vowel count.
+
+48. **State:** A map representing a shopping cart with items and quantities.
+    **Event:** Calculate the total cost, given a map of item prices.
+    **Execution:** Print the total cost of the shopping cart.
+
+49. **State:** A list of numbers.
+    **Event:** Create a function to remove all duplicate numbers from the list.
+    **Execution:** Print the list with unique numbers.
+
+50. **State:** A `Playlist` class for a music app, containing a list of `Song` objects.
+    **Event:** Create methods to add a song, remove a song, and shuffle the playlist.
+    **Execution:** Create a playlist, add songs, shuffle it, and print the song titles in their new order.
